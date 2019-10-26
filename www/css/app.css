@@ -1,0 +1,106 @@
+html, body, div, section, button, h1, h2, h3, h4, h5, p {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.btn-app {
+    background: #ffffff;
+    color: #FA8072;
+    border: 1px solid #FA8072;
+    font-size: 15px;
+    margin: 15px;
+    height: 40px;
+    padding: 3px 15px;
+}
+
+.btn-app:hover {
+	background: #FA8072;
+    color: #ffffff;
+}
+
+.padtb50 {
+	padding: 50px 0 !important;
+}
+
+.navbar, .subnavbar, .toolbar {
+	background: #FA8072;
+}
+
+.facebook-name {
+	font-weight: bold;
+}
+
+.option_selection {
+	display: inline-block;
+	width: auto;
+    height: auto;
+    padding: 10px;
+    background: #c2c2c2;
+    margin: 5px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.bg-green {
+	background: #3ba73b;
+}
+
+.bg-red {
+	background: #ef5c5c;
+}
+
+.bg-blue {
+	background: #3d7bdc;
+}
+
+.bg-yellow {
+	background: #d2d211;
+}
+
+.bg-skyblue {
+	background: skyblue;
+}
+
+.font-17 {
+	font-size: 17px;
+}
+
+.font-600 {
+	font-weight: 600;
+}
+
+.letter-spacing-05 {
+	letter-spacing: 0.5px;
+}
+
+.card {
+	margin: 15px 8px;
+}
+
+.options_1:first-child() {
+	background: #3d7bdc;
+}
+
+.options_1:second-child() {
+	background: #d2d211;
+}
+
+.options_1:nth-child(even) {
+	background: #d2d211;
+}
+
+.options_1:nth-child(odd) {
+	background: #ef5c5c;
+}
+
+.options_2:nth-child(even) {
+	background: #3ba73b;
+}
+
+.options_2:nth-child(odd) {
+	background: #ef5c5c;
+}
+
